@@ -1,0 +1,9 @@
+$this->load->view('games/lottery');
+    }  
+    public function slot()
+	{
+        switch ($this->input->get('id')) {
+                $this->load->view('games/submenu_slot/pragmatic');
+                break; 
+
+            case 'betsoft'://BS มี
